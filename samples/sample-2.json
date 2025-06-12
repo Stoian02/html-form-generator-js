@@ -1,0 +1,23 @@
+{
+  "username": {
+    "type": "text",
+    "label": "Username"
+  },
+  "address": {
+    "type": "schema",
+    "schema": {
+      "city": {
+        "type": "text"
+      },
+      "street": {
+        "type": "text",
+        "label": "Street Name"
+      },
+      "zip": {
+        "type": "text",
+        "pattern": "[0-9]{4}",
+        "hint": "Enter a 4-digit ZIP code"
+      }
+    }
+  }
+}

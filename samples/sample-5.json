@@ -1,0 +1,21 @@
+{
+  "user": {
+    "type": "schema",
+    "schema": {
+      "name": {
+        "type": "text"
+      },
+      "contact": {
+        "type": "schema",
+        "schema": {
+          "email": {
+            "type": "email"
+          },
+          "phone": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}

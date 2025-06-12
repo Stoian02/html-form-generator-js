@@ -1,0 +1,33 @@
+{
+  "first_name": {
+    "type": "text"
+  },
+  "last_name": {
+    "type": "text"
+  },
+  "birthdate": {
+    "type": "date"
+  },
+  "major": {
+    "type": "select",
+    "placeholder": "Select major",
+    "options": [
+      [
+        "cs",
+        "Computer Science"
+      ],
+      [
+        "bio",
+        "Biology"
+      ],
+      [
+        "math",
+        "Mathematics"
+      ]
+    ]
+  },
+  "notes": {
+    "type": "textarea",
+    "hint": "Optional comments"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": {
+        "type": "text",
+        "label": "Full Name",
+        "required": true,
+        "maxlength": 50
+    },
+    "email": {
+        "type": "email",
+        "required": true
+    },
+    "newsletter": {
+        "type": "checkbox",
+        "label": "Subscribe to newsletter"
+    }
+}

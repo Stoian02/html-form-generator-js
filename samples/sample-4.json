@@ -1,0 +1,9 @@
+{
+  "phone": {
+    "type": "tel",
+    "pattern": "\\+\\d{10,15}"
+  },
+  "agree_terms": {
+    "type": "checkbox"
+  }
+}
