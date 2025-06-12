@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>HTML Form Generator</h1>
+
+    <div class="form-generator-controls">
+        <textarea id="json_input" rows="15" cols="80"></textarea>
+
+        <button id="generate_form" onclick="generateForm()">Generate Form</button>
+    </div>
+
+
+    <div class="generated-form-container">
+        <h3>Generated Form</h3>
+
+        <form id="form_container"></form>
+    </div>
+
+    <script src="form-generator.js"></script>
+</body>
+
+</html>
